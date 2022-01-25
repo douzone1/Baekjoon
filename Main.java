@@ -26,7 +26,7 @@ public class Main {
         }
 
     }
-}
+} 
 
 class Score implements Comparator<Score> {
 
