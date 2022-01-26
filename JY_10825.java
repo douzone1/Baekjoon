@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
-public class JY_10897 {
+public class JY_10825 {
     public static class Student{
         String name;
         int kor;
