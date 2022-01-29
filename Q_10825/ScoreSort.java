@@ -4,21 +4,21 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 //https://fbtmdwhd33.tistory.com/83
-//ÀÌ¸§ ±¹¾î ¿µ¾î ¼öÇĞ Á¡¼ö ÁÖ¾îÁü Å¬·¡½º »ı¼º 
-		//±¹¾îÁ¡¼ö ³»¸²Â÷¼ø
-		//±¹¾îÁ¡¼ö µ¿ÀÏÇÒ ½Ã ¿µ¾îÁ¡¼ö ¿À¸§Â÷¼ø
-		//±¹¾îÁ¡¼ö & ¿µ¾îÁ¡¼ö °°À» ½Ã ¼öÇĞÁ¡¼ö ³»¸²Â÷¼ø
-		//¸ğµç Á¡¼ö°¡ °°À¸¸é ÀÌ¸§ ¿À¸§Â÷¼ø(¾Æ½ºÅ° ÄÚµå ±âÁØ)
+//ì´ë¦„ êµ­ì–´ ì˜ì–´ ìˆ˜í•™ ì ìˆ˜ ì£¼ì–´ì§ í´ë˜ìŠ¤ ìƒì„± 
+		//êµ­ì–´ì ìˆ˜ ë‚´ë¦¼ì°¨ìˆœ
+		//êµ­ì–´ì ìˆ˜ ë™ì¼í•  ì‹œ ì˜ì–´ì ìˆ˜ ì˜¤ë¦„ì°¨ìˆœ
+		//êµ­ì–´ì ìˆ˜ & ì˜ì–´ì ìˆ˜ ê°™ì„ ì‹œ ìˆ˜í•™ì ìˆ˜ ë‚´ë¦¼ì°¨ìˆœ
+		//ëª¨ë“  ì ìˆ˜ê°€ ê°™ìœ¼ë©´ ì´ë¦„ ì˜¤ë¦„ì°¨ìˆœ(ì•„ìŠ¤í‚¤ ì½”ë“œ ê¸°ì¤€)
 public class ScoreSort{
 	public static void main(String[] args) {
 		Scanner sc =new Scanner(System.in);
 		
 		int row = sc.nextInt();		
 		
-		//°ªÀ» ÀÔ·ÂÇÒ ¿­ÀÌ4°³ÀÎ 2Â÷¿ø ¹è¿­ ¼±¾ğ 
+		//ê°’ì„ ì…ë ¥í•  ì—´ì´4ê°œì¸ 2ì°¨ì› ë°°ì—´ ì„ ì–¸ 
 		String[][] stScore = new String[row][4];
 		
-		//°¢ ¿­¸¶´Ù ÀÌ¸§°ú ±¹,¿µ,¼ö Á¡¼ö ÀÔ·Â
+		//ê° ì—´ë§ˆë‹¤ ì´ë¦„ê³¼ êµ­,ì˜,ìˆ˜ ì ìˆ˜ ì…ë ¥
 		for(int i = 0; i < stScore.length; i++) {
 			for(int j = 0; j < stScore[i].length; j++) {
 				stScore[i][j] = sc.next();
@@ -28,17 +28,17 @@ public class ScoreSort{
 		Arrays.sort(stScore, new Comparator<String[]>() {
 			@Override
 			public int compare(String[] o1, String[] o2) {
-				//±¹¾îÁ¡¼ö ¿À¸§Â÷¼ø			
+				//êµ­ì–´ì ìˆ˜ ì˜¤ë¦„ì°¨ìˆœ			
 				if(Integer.valueOf(o1[1]) > Integer.valueOf(o2[1])) {					
 					 return -1;
 				}
-				//±¹¾îÁ¡¼ö, ¼öÇĞÁ¡¼ö, ¿µ¾îÁ¡¼ö °°À» ¶§ ÀÌ¸§¼ø ¿À¸§Â÷¼ø
+				//êµ­ì–´ì ìˆ˜, ìˆ˜í•™ì ìˆ˜, ì˜ì–´ì ìˆ˜ ê°™ì„ ë•Œ ì´ë¦„ìˆœ ì˜¤ë¦„ì°¨ìˆœ
 				else if(Integer.valueOf(o1[1]) == Integer.valueOf(o2[1])) {
 					if(Integer.valueOf(o1[2]) == Integer.valueOf(o2[2])) {
 						if(Integer.valueOf(o1[3]) == Integer.valueOf(o2[3])) {
 							return o1[0].compareTo(o2[0]);
 						}					
-					//±¹¾îÁ¡¼ö, ¿µ¾îÁ¡¼ö °°À» ¶§ ¼öÇĞÁ¡¼ö ³»¸²Â÷¼ø
+					//êµ­ì–´ì ìˆ˜, ì˜ì–´ì ìˆ˜ ê°™ì„ ë•Œ ìˆ˜í•™ì ìˆ˜ ë‚´ë¦¼ì°¨ìˆœ
 						return Integer.compare(Integer.valueOf(o2[3]), Integer.valueOf(o1[3]));
 					}
 					return Integer.compare(Integer.valueOf(o1[2]), Integer.valueOf(o2[2]));
