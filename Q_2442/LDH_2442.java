@@ -25,4 +25,4 @@ public class LDH_2442 {
         }
         System.out.println();
     }
-} 
+}
