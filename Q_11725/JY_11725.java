@@ -21,6 +21,7 @@ public class JY_11725 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine()) +1;
         StringTokenizer st;
+        StringBuilder sb = new StringBuilder();
         for(int i=0; i<n; i++)
             graph.add(new ArrayList<Integer>());
         for(int i=1; i<n-1; i++) {
@@ -36,6 +37,7 @@ public class JY_11725 {
         dfs(1);
 
         for(int i=2; i<n; i++)
-            System.out.println(parent[i]);
+            sb.append(parent[i]+"\n);
+         System.out.println(sb);
     }
 }
