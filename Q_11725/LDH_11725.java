@@ -13,29 +13,29 @@ public class LDH_11725 {
     static boolean[] visited;
 
     public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		N = Integer.parseInt(br.readLine());
-		
-		list = new ArrayList[N+1];
-        parents = new int[N+1];
-		for(int i = 1; i <= N; i++) {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        N = Integer.parseInt(br.readLine());
+
+        list = new ArrayList[N + 1];
+        parents = new int[N + 1];
+        for (int i = 1; i <= N; i++) {
             list[i] = new ArrayList<>();
         }
-		
-		visited = new boolean[N+1];
-		for(int i = 0; i < N-1; i++) {
+
+        visited = new boolean[N + 1];
+        for (int i = 0; i < N - 1; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             l = Integer.parseInt(st.nextToken());
             r = Integer.parseInt(st.nextToken());
-			list[l].add(r);
+            list[l].add(r);
             list[r].add(l);
-		}
-		
-		dfs(1);
-		for(int i = 2; i <= N; i++) {
+        }
+
+        dfs(1);
+        for (int i = 2; i <= N; i++) {
             System.out.println(parents[i]);
         }
-	}
+    }
 
     private static void dfs(int v) {
         visited[v] = true;
