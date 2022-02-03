@@ -1,46 +1,58 @@
-package ex06.oop;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.LinkedList;
 
- class Point{
-	private int x,y; // 멤버변수
+public class Main {
+	public static int NODE = 0;
+	public static int [] parents;
 	
-	// 멤버 함수
-	// getter | setter
-	public int getX() {
-		return x;
-	}
-	
-	public void setX(int newX) {
-		this.x = newX;
-	}
-	
-	// getter | setter
-	public int getY() {
-		return y;
-	}
-	
-	public void setY(int newY) {
-		this.y = newY;
+	public static void dfs(int v, LinkedList<Integer>[] graph, boolean[] visited) {
+		visited[v] = true;
+		
+		Iterator<Integer> iter = graph[v].listIterator();
+		while(iter.hasNext()) {
+			int w = iter.next();
+			if(!visited[w]) {
+				parents[w] = v;
+				dfs(w, graph, visited);
+			}
+		}
 	}
 	
 	
-	//user method : output
-	public void display() {
-		System.out.println(x + ", " + y);
-		System.out.println(getX() + ", " + getY());
-	}
-}
-
-public class MainEntry {
-	public static void main(String[] args) {
-		Point pt =	new Point();
-		pt.display();
-//		System.out.println(pt.getX() + ", " + pt.getY());
-//		pt.x = 90;
-//		pt.y = 80;
-		pt.setX(90);
-		pt.setY(80);
-		pt.display();
-//		System.out.println(pt.getX() + ", " + pt.getY());
+	public static void main(String[] args) throws IOException {
+		BufferedReader br  = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		
+		NODE = Integer.parseInt(br.readLine()); // 노드개수
+		parents = new int[NODE+1];
+		boolean[] visit = new boolean[NODE+1]; // 방문처리
+		
+		// 그래프 입력
+		LinkedList<Integer>[] tree =  new LinkedList[NODE+1]; 
+		
+		for(int i=0; i<NODE+1; i++) {
+			tree[i] = new LinkedList<Integer>();
+		}
+		
+		for(int i=0; i<NODE-1; i++) {
+			int [] arr = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).sorted().toArray();
+			tree[arr[0]].add(arr[1]);
+			tree[arr[1]].add(arr[0]);
+		}
+		
+		// DFS처리
+		dfs(1, tree, visit);
+		
+		for(int i=2; i<NODE+1; i++) {
+			sb.append(parents[i] + "\n");
+		}
+		
+		System.out.println(sb);
+		br.close();
 		
 	}
 }
