@@ -19,3 +19,4 @@
 | 02/01      | [2443_별찍기6](https://www.acmicpc.net/problem/2443)       | [2443](https://github.com/douzone1/Baekjoon/tree/main/Q_2443)| 구현 |
 | 02/02      | [1110_더하기 사이클](https://www.acmicpc.net/problem/1110)    | [1110](https://github.com/douzone1/Baekjoon/tree/main/Q_1110)| 구현 |
 | 02/03      | [11725 트리의 부모 찾기](https://www.acmicpc.net/problem/11725)    | [11725](https://github.com/douzone1/Baekjoon/tree/main/Q_11725)| 그래프 탐색 |
+| 02/04      | [11399 ATM](https://www.acmicpc.net/problem/11399)    | [11399]| 그리디 |
