@@ -21,4 +21,5 @@
 | 02/03      | [11725 트리의 부모 찾기](https://www.acmicpc.net/problem/11725)    | [11725](https://github.com/douzone1/Baekjoon/tree/main/Q_11725)| 그래프 탐색 |
 | 02/04      | [11399 ATM](https://www.acmicpc.net/problem/11399)    | [11399](https://github.com/douzone1/Baekjoon/tree/main/Q_11399)| 그리디 |
 | 02/07      | [10546 배부른 마라토너](https://www.acmicpc.net/problem/10546)    | [10546](https://github.com/douzone1/Baekjoon/tree/main/Q_10546)| 해시 |
-| 02/07      | [14888 연산자 끼워넣기](https://www.acmicpc.net/problem/14888)    | [14888](https://github.com/douzone1/Baekjoon/tree/main/Q_14888)| 완전 탐색 |
+| 02/08      | [14888 연산자 끼워넣기](https://www.acmicpc.net/problem/14888)    | [14888](https://github.com/douzone1/Baekjoon/tree/main/Q_14888)| 완전 탐색 |
+| 02/09      | [1446 지름길](https://www.acmicpc.net/problem/1446)    | [1446](https://github.com/douzone1/Baekjoon/tree/main/1446)| 최단 거리 |
