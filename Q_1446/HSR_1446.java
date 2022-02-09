@@ -40,7 +40,6 @@ public class HSR_1446 {
 		D = Integer.parseInt(st.nextToken());
 		movedDistance = new int[ D + 1];
 		shortCuts = new ShortCut[N];		
-		//초기화
 		Arrays.fill(movedDistance, Integer.MAX_VALUE);		
 		for (int i = 0; i < N; i++) {
 			st = new StringTokenizer(br.readLine());
