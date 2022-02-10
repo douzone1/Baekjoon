@@ -1,8 +1,23 @@
-# Baekjoon🧑🏻‍💻
-  
-화이팅💪
+<p align='middle'>
+<a href='https://www.acmicpc.net/'><img src='https://user-images.githubusercontent.com/40657327/153372372-9c901899-0b49-4111-bc98-aa0f1f3a2b0e.png' width="400px;" alt="LiveMD" /></a></p>
+
+<h1 align='middle'><a href='https://www.acmicpc.net/'>https://www.acmicpc.net/</a></h1>
+
+
+###  🙋‍♀️ PDF 제출 순서
+박채연 > 이동훈 > 임지영 > 하성록   
+
+<br/>
 
 ## 1월 알고리즘 풀이
+<details>
+  <summary>
+    <STRONG>
+     🗃 요일별 문제
+    </STRONG>
+  </summary>
+     <br/>
+  <div markdown="1">
 
 | 월/일 | 문제                           | 풀이 링크 | 문제 분류 |
 | ----------- | ---------------------- | ---------------------- | ------------------------------------|
@@ -11,6 +26,10 @@
 | 01/27      | [9095_1,2,3 더하기](https://www.acmicpc.net/problem/9095)       | [9095](https://github.com/douzone1/Baekjoon/tree/main/Q_9095)| 다이나믹 프로그래밍 |
 | 01/28      | [1157_단어공부](https://www.acmicpc.net/problem/1157)       | [1157](https://github.com/douzone1/Baekjoon/tree/main/Q_1157)| 구현 |
 | 01/31      | [2442_별찍기5](https://www.acmicpc.net/problem/2442)       | [2442](https://github.com/douzone1/Baekjoon/tree/main/Q_2442)| 구현 |
+  </div>
+  
+ </details>
+
 
 ## 2월 알고리즘 풀이
 
@@ -24,3 +43,6 @@
 | 02/08      | [14888 연산자 끼워넣기](https://www.acmicpc.net/problem/14888)    | [14888](https://github.com/douzone1/Baekjoon/tree/main/Q_14888)| 완전 탐색 |
 | 02/09      | [1446 지름길](https://www.acmicpc.net/problem/1446)    | [1446](https://github.com/douzone1/Baekjoon/tree/main/Q_1446)| 최단 거리 |
 | 02/10      | [17219 비밀번호 찾기](https://www.acmicpc.net/problem/17219)    | [17219](https://github.com/douzone1/Baekjoon/tree/main/Q_17219)| 해시맵 |
+
+
+
