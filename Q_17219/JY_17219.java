@@ -10,6 +10,7 @@ public class BOJ_17219 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
+        StringBuilder sb = new StringBuilder();
         HashMap<String, String> map = new HashMap<>();
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
@@ -22,6 +23,7 @@ public class BOJ_17219 {
         }
 
         while(m-->0)
-            System.out.println(map.get(br.readLine()));
+            sb.append(map.get(br.readLine())+"\n");
+        System.out.println(sb);
         }
     }
