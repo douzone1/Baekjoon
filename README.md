@@ -43,6 +43,6 @@
 | 02/08      | [14888 연산자 끼워넣기](https://www.acmicpc.net/problem/14888)    | [14888](https://github.com/douzone1/Baekjoon/tree/main/Q_14888)| 완전 탐색 |
 | 02/09      | [1446 지름길](https://www.acmicpc.net/problem/1446)    | [1446](https://github.com/douzone1/Baekjoon/tree/main/Q_1446)| 최단 거리 |
 | 02/10      | [17219 비밀번호 찾기](https://www.acmicpc.net/problem/17219)    | [17219](https://github.com/douzone1/Baekjoon/tree/main/Q_17219)| 해시맵 |
-| 02/11      | [2470 두 용액](https://www.acmicpc.net/problem/2470)    | [2470]| 해시맵 |
+| 02/11      | [2470 두 용액](https://www.acmicpc.net/problem/2470)    | [2470](https://github.com/douzone1/Baekjoon/tree/main/Q_2470)| 해시맵 |
 
 
