@@ -44,5 +44,6 @@
 | 02/09      | [1446 지름길](https://www.acmicpc.net/problem/1446)    | [1446](https://github.com/douzone1/Baekjoon/tree/main/Q_1446)| 최단 거리 |
 | 02/10      | [17219 비밀번호 찾기](https://www.acmicpc.net/problem/17219)    | [17219](https://github.com/douzone1/Baekjoon/tree/main/Q_17219)| 해시맵 |
 | 02/11      | [2470 두 용액](https://www.acmicpc.net/problem/2470)    | [2470](https://github.com/douzone1/Baekjoon/tree/main/Q_2470)| 정렬, 투포인터 |
-| 02/11      | [2805 나무 자르기](https://www.acmicpc.net/problem/2805)    | [2805](https://github.com/douzone1/Baekjoon/tree/main/Q_2805)| 이진탐색 |
+| 02/14      | [2805 나무 자르기](https://www.acmicpc.net/problem/2805)    | [2805](https://github.com/douzone1/Baekjoon/tree/main/Q_2805)| 이진탐색 |
+| 02/15      | [11048 이동하기](https://www.acmicpc.net/problem/11048)    | [11048](https://github.com/douzone1/Baekjoon/tree/main/Q_11048)| 다이나믹 프로그래밍 |
 
