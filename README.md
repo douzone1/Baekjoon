@@ -47,3 +47,4 @@
 | 02/14      | [2805 나무 자르기](https://www.acmicpc.net/problem/2805)    | [2805](https://github.com/douzone1/Baekjoon/tree/main/Q_2805)| 이진탐색 |
 | 02/15      | [11048 이동하기](https://www.acmicpc.net/problem/11048)    | [11048](https://github.com/douzone1/Baekjoon/tree/main/Q_11048)| 다이나믹 프로그래밍 |
 | 02/16      | [7576 토마토](https://www.acmicpc.net/problem/7576)    | [7576](https://github.com/douzone1/Baekjoon/tree/main/Q_7576)| 그래프 탐색 |
+| 02/17      | [16953 A->B](https://www.acmicpc.net/problem/16953)    | [7576](https://github.com/douzone1/Baekjoon/tree/main/Q_16953)| 그리디 |
