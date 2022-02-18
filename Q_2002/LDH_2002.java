@@ -1,7 +1,5 @@
 package BOJ_2002;
 
-package BOJ_2002;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
