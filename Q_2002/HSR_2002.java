@@ -24,47 +24,5 @@ public class HSR_2002 {
 			}
 		}
 		System.out.println("추월한 차의 수 : " + overtake);
-		
-		
-//		//맵으로 들어오는 자동차 순서 확인
-//		HashMap<Integer, String> car = new HashMap<>();
-//		LinkedHashMap<Integer, String> linkedMap = new LinkedHashMap<Integer, String>();
-//		N = Integer.parseInt(br.readLine());
-//		
-//		for (int i = 0; i < N; i++) {	
-//			linkedMap.put(i, br.readLine());			
-//		}
-//		for (Map.Entry<Integer, String> item : linkedMap.entrySet() ) {
-//			System.out.println(item.getKey() + " : " + item.getValue());
-//		}
-//		
-			
 	}
 }
-
-//추월을 하면 순서가 뒤로 밀려난다.
-//변경된 순서를 저장할 해쉬맵을 만들어야 한다?
-
-//4
-//ZG431SN 1
-//ZG5080K 2
-//ST123D 3
-//ZG206A 4
-//ZG206A 4 -> 1
-//ZG431SN 1 -> 2
-//ZG5080K 2 -> 3 
-//ST123D 3 -> 4
-// output = 1
-
-//5
-//ZG508OK	1
-//PU305A	2	
-//RI604B	3
-//ZG206A	4
-//ZG232ZF	5
-//PU305A	2 -> 1
-//ZG232ZF	5 -> 2 
-//ZG206A	4 -> 3
-//ZG508OK	1 -> 4
-//RI604B	3 -> 5
-// output =3
