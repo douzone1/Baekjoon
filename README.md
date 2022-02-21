@@ -49,3 +49,4 @@
 | 02/16      | [7576 토마토](https://www.acmicpc.net/problem/7576)    | [7576](https://github.com/douzone1/Baekjoon/tree/main/Q_7576)| 그래프 탐색 |
 | 02/17      | [16953 A->B](https://www.acmicpc.net/problem/16953)    | [16953](https://github.com/douzone1/Baekjoon/tree/main/Q_16953)| 그리디 |
 | 02/18      | [2002 추월](https://www.acmicpc.net/problem/2002)    | [2002](https://github.com/douzone1/Baekjoon/tree/main/Q_2002)| 해시 |
+| 02/21      | [1260 DFS와 BFS](https://www.acmicpc.net/problem/1260)    | [1260](https://github.com/douzone1/Baekjoon/tree/main/Q_1260)| 그래프 탐색 |
