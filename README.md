@@ -97,3 +97,4 @@
 | 월/일 | 문제                           | 풀이 링크 | 문제 분류 |
 | ----------- | ---------------------- | ---------------------- | ------------------------------------|
 | 02/21      | [1260 DFS와 BFS](https://www.acmicpc.net/problem/1260)    | [1260](https://github.com/douzone1/Baekjoon/tree/main/Q_1260)| 그래프 탐색 |
+| 02/22      | [9205 맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205)    | [1260](https://github.com/douzone1/Baekjoon/tree/main/Q_9205)| 그래프 탐색 |
