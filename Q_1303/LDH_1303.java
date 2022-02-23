@@ -37,7 +37,7 @@ public class Main {
         System.out.println(w + " " + b);
     }
     
-    public static int DFS(int y, int x, boolean W){
+    public static int DFS(int x, int y, boolean W){
 
         int count = 1;
         visit[x][y] = true;
