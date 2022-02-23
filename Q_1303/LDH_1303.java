@@ -11,23 +11,6 @@ public class Main {
     static int[] dx = { 1, 0, -1, 0 }, dy = { 0, 1, 0, -1 };
     static boolean[][] visit = new boolean[101][101], map = new boolean[101][101];
 
-    static int DFS(int y, int x, boolean W){
-
-        int count = 1;
-        visit[x][y] = true;
-
-        for(int a=0; a<4; a++){
-            int nx = x+dx[a];
-            int ny = y+dy[a];
-
-            if(nx < 1 || ny < 1 || nx > m || ny > n || visit[nx][ny] || map[nx][ny] != W) continue;
-
-            count += DFS(nx, ny, W);
-        }
-
-        return count;
-    }
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -52,5 +35,22 @@ public class Main {
                 }
 
         System.out.println(w + " " + b);
+    }
+    
+    public static int DFS(int y, int x, boolean W){
+
+        int count = 1;
+        visit[x][y] = true;
+
+        for(int a=0; a<4; a++){
+            int nx = x+dx[a];
+            int ny = y+dy[a];
+
+            if(nx < 1 || ny < 1 || nx > m || ny > n || visit[nx][ny] || map[nx][ny] != W) continue;
+
+            count += DFS(nx, ny, W);
+        }
+
+        return count;
     }
 }
