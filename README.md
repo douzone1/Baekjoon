@@ -99,3 +99,4 @@
 | 02/21      | [1260 DFS와 BFS](https://www.acmicpc.net/problem/1260)    | [1260](https://github.com/douzone1/Baekjoon/tree/main/Q_1260)| 그래프 탐색 |
 | 02/22      | [9205 맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205)    | [9205](https://github.com/douzone1/Baekjoon/tree/main/Q_9205)| 그래프 탐색 |
 | 02/23      | [1303 전투](https://www.acmicpc.net/problem/1303)    | [1303](https://github.com/douzone1/Baekjoon/tree/main/Q_1303)| 그래프 탐색 |
+| 02/24      | [2573 빙산](https://www.acmicpc.net/problem/2573)    | [2573](https://github.com/douzone1/Baekjoon/tree/main/Q_2573)| 그래프 탐색 |
