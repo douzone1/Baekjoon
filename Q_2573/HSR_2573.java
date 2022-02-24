@@ -38,9 +38,7 @@ class IceBerg {
 public class HSR_2573 {
 	static int N,M;
 	static int[] dx = {1, 0, -1, 0};
-	static int[] dy = {0, 1, 0, -1};
-	static int[][] iceberg;
-	
+	static int[] dy = {0, 1, 0, -1};	
 	static int[][] map;
 	static Queue q = new LinkedList();
 	
