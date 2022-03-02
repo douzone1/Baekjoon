@@ -120,3 +120,4 @@
 | 월/일 | 문제                           | 풀이 링크 | 문제 분류 |    
 | ----------- | ---------------------- | ---------------------- | ------------------------------------|
 | 02/28      | [1026 보물](https://www.acmicpc.net/problem/1026)    | [1026](https://github.com/douzone1/Baekjoon/tree/main/Q_1026)| 그리디 |
+| 03/02      | [11501 주석](https://www.acmicpc.net/problem/11501)    | [11501](https://github.com/douzone1/Baekjoon/tree/main/Q_11501)| 그리디 |
