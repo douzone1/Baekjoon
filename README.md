@@ -138,6 +138,6 @@
   
   | 월/일 | 문제                           | 풀이 링크 | 문제 분류 |    
   | ----------- | ---------------------- | ---------------------- | ------------------------------------|
-  | 03/07      | [19621 보물](https://www.acmicpc.net/problem/19621)    | [19621](https://github.com/douzone1/Baekjoon/tree/main/Q_19621)| 완전탐색 |
+  | 03/07      | [19621 회의실 배정 2](https://www.acmicpc.net/problem/19621)    | [19621](https://github.com/douzone1/Baekjoon/tree/main/Q_19621)| 완전탐색 |
   
 
