@@ -116,10 +116,28 @@
  
 ## 3월 알고리즘 풀이
 
+<details>
+  <summary>
+    <STRONG>
+     🗃 1주차 문제(그리디)
+    </STRONG>
+  </summary>
+  
+  <br/>
+  <div markdown="1">
+    
+  | 월/일 | 문제                           | 풀이 링크 | 문제 분류 |    
+  | ----------- | ---------------------- | ---------------------- | ------------------------------------|
+  | 02/28      | [1026 보물](https://www.acmicpc.net/problem/1026)    | [1026](https://github.com/douzone1/Baekjoon/tree/main/Q_1026)| 그리디 |
+  | 03/02      | [11501 주석](https://www.acmicpc.net/problem/11501)    | [11501](https://github.com/douzone1/Baekjoon/tree/main/Q_11501)| 그리디 |
+  | 03/03      | [11497 통나무 건너뛰기](https://www.acmicpc.net/problem/11497)    | [11497](https://github.com/douzone1/Baekjoon/tree/main/Q_11497)| 그리디 |
+  | 03/04      | [12904 A와 B](https://www.acmicpc.net/problem/12904)    | [12904](https://github.com/douzone1/Baekjoon/tree/main/Q_12904)| 그리디 |
+    
+</details>
 
-| 월/일 | 문제                           | 풀이 링크 | 문제 분류 |    
-| ----------- | ---------------------- | ---------------------- | ------------------------------------|
-| 02/28      | [1026 보물](https://www.acmicpc.net/problem/1026)    | [1026](https://github.com/douzone1/Baekjoon/tree/main/Q_1026)| 그리디 |
-| 03/02      | [11501 주석](https://www.acmicpc.net/problem/11501)    | [11501](https://github.com/douzone1/Baekjoon/tree/main/Q_11501)| 그리디 |
-| 03/03      | [11497 통나무 건너뛰기](https://www.acmicpc.net/problem/11497)    | [11497](https://github.com/douzone1/Baekjoon/tree/main/Q_11497)| 그리디 |
-| 03/04      | [12904 A와 B](https://www.acmicpc.net/problem/12904)    | [12904](https://github.com/douzone1/Baekjoon/tree/main/Q_12904)| 그리디 |
+  
+  | 월/일 | 문제                           | 풀이 링크 | 문제 분류 |    
+  | ----------- | ---------------------- | ---------------------- | ------------------------------------|
+  | 03/07      | [19621 보물](https://www.acmicpc.net/problem/19621)    | [19621](https://github.com/douzone1/Baekjoon/tree/main/Q_19621)| 완전탐색 |
+  
+
