@@ -19,7 +19,7 @@ public class JY_9663 {
 		if(row == n) {cnt++; return;}
 		
 		for(int i=0; i<n; i++) { //열 탐색
-			if(col[i]==true || opp[row-i+n-1]==true || anti[row+i]==true) continue;
+			if(col[i] || opp[row-i+n-1] || anti[row+i]) continue;
 			col[i] = true; opp[row-i+n-1] = true; anti[row+i] = true;
 			dfs(row+1);
 			col[i] = false; opp[row-i+n-1] = false; anti[row+i] = false; //backtracking
