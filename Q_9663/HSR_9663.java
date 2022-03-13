@@ -42,7 +42,7 @@ public class HSR_9663 {
 		// TODO Auto-generated method stub
 			for (int i = 1; i < row; i++) {
 				if(map[i] == map[row]) {
-					return false;
+					return false; 
 				}
 				
 				if(Math.abs(map[i] - map[row])==Math.abs(i - row)) {
